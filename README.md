@@ -9,10 +9,10 @@
 6. Create new file in Specs folder $ touch ./test/specs/fillFormTest.js
 7. Open file and add below code:(Open in Visual Studio Code ide or notepad).
 
-const assert = require('assert');
+ const assert = require('assert');
  
-describe('ultimateqa.com page', () => {
-    it('Check for the successful message', () => {
+   describe('ultimateqa.com page', () => {
+     it('Check for the successful message', () => {
         //Load url
         browser.url('https://www.ultimateqa.com/filling-out-forms/');
         browser.pause('2000');
